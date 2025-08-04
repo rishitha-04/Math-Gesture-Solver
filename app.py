@@ -31,7 +31,7 @@ output_text_area = st.subheader("")
 uploaded_image = st.file_uploader("Upload an image with a math problem", type=["jpg", "jpeg", "png"])
 
 # Google AI configuration
-genai.configure(api_key="AIzaSyDpCM1VjFHccMrOz7HJUIFRmWAAfI_7V2o")
+genai.configure(api_key="API-KEY")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Initialize the webcam to capture video
